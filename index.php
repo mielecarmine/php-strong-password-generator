@@ -1,14 +1,6 @@
 <?php
 require_once './functions.php';
 
-
-// function generate_password($pass_length, $password, $alph) {
-//     for($i = 0; $i < $pass_length; $i++) {
-//         $password .= $alph[rand(0, strlen($alph) - 1)];
-//     }
-//     return $password;
-// }
-
 $alph = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcefghijklmnopqrstuvwxyz#<>%$&!?^*-_=";
 $password = '';
 
